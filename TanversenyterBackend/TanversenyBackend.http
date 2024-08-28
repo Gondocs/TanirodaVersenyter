@@ -1,0 +1,6 @@
+@TanversenyBackend_HostAddress = http://localhost:5163
+
+GET {{TanversenyBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
