@@ -13,6 +13,6 @@ namespace TanversenyBackend.Models.DTO
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
 
         public ICollection<CompetitionOrganizer>? OrganizedCompetitions { get; set; }
-        public ICollection<TeamMember>? Teams { get; set; }
+        public ICollection<Team>? Team { get; set; }
     }
 }

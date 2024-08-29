@@ -1,3 +1,5 @@
+using TanversenyBackend.Models.DTO;
+
 namespace TanversenyBackend.Services
 {
     public class UserService : IUserService
@@ -11,7 +13,8 @@ namespace TanversenyBackend.Services
 
         public async Task<List<User>> GetAllUsers()
         {
-            return await _context.Users.ToListAsync();
+            return await _context.Users.ToListAsync() ?? throw new Exception("No users found");
+            
         }
 
         public async Task<User> GetUserById(int id)

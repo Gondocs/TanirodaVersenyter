@@ -18,6 +18,9 @@ namespace TanversenyBackend.Models
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
 
         public ICollection<CompetitionOrganizer>? OrganizedCompetitions { get; set; }
-        public ICollection<TeamMember>? Teams { get; set; }
+
+        // Opcionális kapcsolat a Team-mel
+        public int? TeamId { get; set; }
+        public Team? Team { get; set; }
     }
 }

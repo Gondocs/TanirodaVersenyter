@@ -28,7 +28,7 @@ namespace TanversenyBackend.Controllers
                     Lastname = user.Lastname,
                     CreatedAt = user.CreatedAt,
                     OrganizedCompetitions = user.OrganizedCompetitions,
-                    Teams = user.Teams,
+                
                 })
                 .ToList();
 
@@ -48,7 +48,6 @@ namespace TanversenyBackend.Controllers
                 Lastname = user.Lastname,
                 CreatedAt = user.CreatedAt,
                 OrganizedCompetitions = user.OrganizedCompetitions,
-                Teams = user.Teams,
             };
 
             return Ok(adminUser);
