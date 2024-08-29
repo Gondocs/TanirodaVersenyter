@@ -1,7 +1,39 @@
 import React from "react";
 import "./HomePage.css";
+//import { useEffect } from "react";
+//import { useState } from "react";
+//import { get } from "./api/api";
 
 const HomePage = () => {
+  /*const [User, setUser] = useState("");
+  const [SpecificUser, setSpecificUser] = useState("");
+
+  useEffect(() => {
+    get
+      .GetAll()
+      .then((UserData) => {
+        setUser(UserData);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
+  useEffect(() => {
+    get
+      .GetUserById2(1)
+      .then((data) => {
+        setSpecificUser(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, []);
+
+  const HandleButtonClick = () => {
+    console.log(SpecificUser, User);
+  };*/
+
   return (
     <div className="relative h-screen">
       {/* Hero Section */}
@@ -14,7 +46,10 @@ const HomePage = () => {
             <p className="text-xl mb-8">
               Tudjon meg többet szolgáltatásunkról.
             </p>
-            <button className="bg-white text-blue-600 py-2 px-6 rounded-lg font-semibold hover:bg-gray-200">
+            <button
+              className="bg-white text-blue-600 py-2 px-6 rounded-lg font-semibold hover:bg-gray-200"
+              /*onClick={HandleButtonClick}*/
+            >
               Tovább
             </button>
           </div>
