@@ -7,12 +7,5 @@ namespace TanversenyBackend.Services
         Task<List<User>> GetAllUsers();
 
         Task<User> GetUserById(int id);
-
-        Task<User> AddUserToTeam(AddUserToTeamDTO dto);
-        void SaveChanges();
-
-        IEnumerable<User> Users { get; }
-
-         List<Team> Teams { get; set; }
     }
 }
