@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TanirodaVersenyter", "TanirodaVersenyter", "{DF4CE8F7-5F55-45C5-A956-955C611D990D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TanversenyBackend", "TanirodaVersenyter\TanversenyterBackend\TanversenyBackend.csproj", "{F126EBB5-D035-4BAB-8572-C7628DB82A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TanversenyBackend", "TanversenyterBackend\TanversenyBackend.csproj", "{6B7792D2-5B4A-49AD-A86F-284DF43C1840}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F126EBB5-D035-4BAB-8572-C7628DB82A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F126EBB5-D035-4BAB-8572-C7628DB82A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F126EBB5-D035-4BAB-8572-C7628DB82A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F126EBB5-D035-4BAB-8572-C7628DB82A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7792D2-5B4A-49AD-A86F-284DF43C1840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7792D2-5B4A-49AD-A86F-284DF43C1840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7792D2-5B4A-49AD-A86F-284DF43C1840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7792D2-5B4A-49AD-A86F-284DF43C1840}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F126EBB5-D035-4BAB-8572-C7628DB82A1E} = {DF4CE8F7-5F55-45C5-A956-955C611D990D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52F3F2D1-0C9F-4CD3-AE4F-410D26EA2ADF}
