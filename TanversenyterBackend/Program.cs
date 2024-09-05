@@ -14,12 +14,14 @@ global using System.ComponentModel.DataAnnotations;
 global using System.ComponentModel.DataAnnotations.Schema;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using TanversenyBackend.Services;
+using TanversenyBackend.Models.DTO;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddJsonFile("appsettings.json");
 var configuration = builder.Configuration;
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ITeamService, TeamService>();
 
 var GetConnectionString = () => configuration.GetConnectionString("DefaultConnection");
 // MySQL configuration
